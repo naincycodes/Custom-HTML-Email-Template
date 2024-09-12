@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông báo trúng tuyển</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #28a745;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content p {
+            margin: 0 0 20px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            color: #888;
+        }
+        .button {
+            background-color: #28a745;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Chúc mừng bạn đã trúng tuyển!</h1>
+        </div>
+        <div class="content">
+            <p>Kính gửi <strong>Đặng Văn Hồng Sơn</strong>,</p>
+            <p>Chúng tôi rất vui mừng thông báo rằng bạn đã vượt qua quá trình phỏng vấn và được chọn cho vị trí <strong> Quản lý website </strong> tại <strong> Công Ty ANG </strong>.</p>
+            <p>Buổi gặp mặt để ký hợp đồng và thảo luận chi tiết sẽ diễn ra vào lúc <strong> 10h </strong> ngày <strong> 10 </strong> tháng <strong> 9 </strong> tại văn phòng của chúng tôi.</p>
+            <p>Vui lòng xác nhận lại sự có mặt của bạn bằng cách trả lời email này hoặc liên hệ với chúng tôi qua số điện thoại <strong> 0322456789 </strong>.</p>
+            <p>Một lần nữa, xin chúc mừng và chúng tôi rất mong được làm việc cùng bạn!</p>
+            <p>Trân trọng,</p>
+            <p><strong> Lê Thiện Phước </strong><br>Phòng Nhân Sự<br><strong> ANG </strong></p>
+            <p style="text-align: center;"><a href="[Link Xác Nhận]" class="button">Xác nhận tham gia</a></p>
+        </div>
+        <div class="footer">
+            <p> ANG | Địa chỉ: 30 Dương Đình Hội, Quận 9 | Điện thoại:0322456789 </p>
+        </div>
+    </div>
+</body>
+</html>
